@@ -13,6 +13,7 @@ public class RegistroUsuario {
 
     // TODO: Método para registrar un nuevo usuario
     public void registrarUsuario(String nombreUsuario, String contraseña) {
+        usuariosRegistrados.put(nombreUsuario, contraseña);
       
     }
 
